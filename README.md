@@ -1,24 +1,24 @@
-# 🚲 Paris Vélib' Real-Time Map
+# Paris Vélib' Real-Time Map
 
-A beautiful real-time visualization of Paris bike-sharing stations using Mapbox GL.
+A gorgeous real-time visualization of Paris bike-sharing stations using Mapbox GL.
 
 ![Vélib' Map](https://img.shields.io/badge/React-19-blue) ![Mapbox](https://img.shields.io/badge/Mapbox_GL-3.17-orange) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
 
-## 🎯 What is this?
+## What is this?
 
 This app displays **real-time availability** of all 1,400+ Vélib' bike stations in Paris:
 - See available bikes (electric ⚡ and mechanical 🚴)
 - View empty docks for returning bikes
 - Explore different visualization modes
 
-## 📊 Data Source
+## Data Source
 
 Uses the official **Vélib' Métropole GBFS API** (General Bikeshare Feed Specification):
 - Station locations & capacity
 - Real-time bike availability (updated every ~30 seconds)
 - Station status (open/closed)
 
-## 🗺️ Visualization Modes
+## Visualization Modes
 
 | Mode | Description |
 |------|-------------|
@@ -26,7 +26,7 @@ Uses the official **Vélib' Métropole GBFS API** (General Bikeshare Feed Specif
 | **Heatmap** | Color intensity shows bike concentration across the city |
 | **Markers** | Individual station pins with color-coded availability |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Get a Mapbox Token (Free)
 
@@ -64,7 +64,7 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 19** - UI framework
 - **TypeScript** - Type safety
@@ -72,7 +72,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - **Vite** - Fast development server
 - **Axios** - API requests
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -84,10 +84,3 @@ src/
 └── App.tsx           # Main application
 ```
 
-## 📝 License
-
-MIT - Feel free to use and modify!
-
----
-
-Made with ❤️ for the Paris cycling community

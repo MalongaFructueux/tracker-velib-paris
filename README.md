@@ -4,6 +4,8 @@ A gorgeous real-time visualization of Paris bike-sharing stations using Mapbox G
 
 ![Vélib' Map](https://img.shields.io/badge/React-19-blue) ![Mapbox](https://img.shields.io/badge/Mapbox_GL-3.17-orange) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
 
+Feel free to contact me on linkedin for help or if you just want to chat about cool geospatial/AI stuff : https://www.linkedin.com/in/yvann-barbot/
+
 I'm working on this big planetary engine thing right now : https://terra-lab.ai/
 
 https://github.com/user-attachments/assets/75cb8c06-1fe6-43b9-b001-f3c9354c9989

